@@ -1,0 +1,444 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: transparent
+}
+
+.request {
+    background: #fff
+}
+
+.request__inner,
+.thanks__inner {
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 40px 0 100px
+}
+
+.request__title,
+.thanks__title {
+    color: #00a9e2;
+    font-size: 40px;
+    text-align: center
+}
+
+.request__caption,
+.thanks__caption {
+    color: #00a9e2;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 75px
+}
+
+.thanks__caption {
+    margin-top: 120px
+}
+
+.thanks__text {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 60px;
+    color: #555
+}
+
+.request__figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 716px;
+    margin: 50px auto 0
+}
+
+.request__figure__text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #00a9e2
+}
+
+.request__figure__img {
+    width: 305px
+}
+
+.request__figure__img img {
+    width: 100%;
+    height: auto;
+    border: solid 1px #eee
+}
+
+.form__wrap {
+    margin-top: 50px;
+    position: relative
+}
+
+.mktoForm {
+    width: 100% !important
+}
+
+.mktoForm .mktoOffset {
+    display: none
+}
+
+.mktoForm .mktoFormRow {
+    width: 100%
+}
+
+.mktoForm .mktoFormRow:nth-of-type(3) {
+    border-bottom: 1px solid #ddd
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) {
+    border-bottom: 0
+}
+
+.mktoForm .mktoFormCol {
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding: 25px 0
+}
+
+.mktoForm .mktoFieldWrap .mktoHtmlText {
+    width: 100% !important;
+    text-align: center
+}
+
+.mktoForm .mktoError {
+    bottom: -10px !important
+}
+
+.mktoForm .mktoFieldWrap label.mktoLabel {
+    color: #555;
+    font-size: 16px;
+    font-weight: normal !important;
+    padding-top: 14px
+}
+
+.mktoForm input[type=text],
+.mktoForm input[type=url],
+.mktoForm input[type=email],
+.mktoForm input[type=tel],
+.mktoForm input[type=number],
+.mktoForm input[type=date],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField,
+.mktoForm select {
+    width: calc(100% - 215px) !important;
+    font-size: 16px;
+    padding: 10px !important;
+    line-height: 1.4 !important;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0
+}
+
+.mktoForm .mktoRequiredField .mktoAsterix {
+    font-size: 30px !important
+}
+
+.mktoForm .mktoFormRow .mktoFieldWrap {
+    width: 100%
+}
+
+.mktoForm .mktoFormRow:nth-of-type(4) .mktoFieldWrap .mktoHtmlText {
+    color: #505050;
+    line-height: 24px
+}
+
+.mktoForm .mktoFormRow:nth-of-type(4) .mktoFieldWrap .mktoHtmlText a {
+    color: #0070c0;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.mktoForm .mktoFormRow:nth-of-type(4) .mktoFieldWrap .mktoHtmlText a:hover {
+    opacity: .6
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoFieldWrap {
+    width: 100%;
+    text-align: center
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoFormCol {
+    float: none;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 0
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoAsterix {
+    line-height: 0
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoLabel {
+    display: inline-block;
+    float: none;
+    width: 0;
+    padding: 0
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoCheckboxList {
+    border: none
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoCheckboxList>label {
+    margin-top: 0
+}
+
+.mktoForm .mktoFormRow:nth-of-type(5) .mktoCheckboxList {
+    display: inline-block;
+    float: none;
+    width: auto !important
+}
+
+.mktoButtonRow {
+    display: block !important;
+    text-align: center !important
+}
+
+.text_attention {
+    font-size: 14px;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 1.6;
+    width: 100%;
+    max-width: 880px
+}
+
+.text_attention a {
+    color: #00a9e2;
+    text-decoration: underline
+}
+
+.mktoButtonRow .mktoButtonWrap {
+    margin: 0 auto !important
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    max-width: 420px;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px !important;
+    background: #20AEE5 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 0 !important;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 0 #0082C8 !important;
+    box-shadow: 0 3px 0 #0082C8 !important
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+    background: #0082C8 !important
+}
+
+.mktoForm .mktoFormRow select.mktoField {
+    position: relative;
+    border-radius: 5px
+}
+
+.mktoForm .mktoFormRow select.mktoField+div:after {
+    content: "笆ｼ";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 20px;
+    margin: auto;
+    height: 10px
+}
+
+.mktoError::after {
+    display: none !important
+}
+
+@media screen and (max-width: 767px) {
+    .request__inner,
+    .thanks__inner {
+        width: calc(100% - 12%);
+        padding: 30px 0 50px
+    }
+    .request__title,
+    .thanks__title {
+        font-size: 24px
+    }
+    .request__caption {
+        font-size: 24px;
+        margin-top: 15px;
+        line-height: 1.4
+    }
+    .thanks__text {
+        font-size: 14px;
+        margin-top: 45px
+    }
+    .thanks__caption {
+        font-size: 20px;
+        margin-top: 40px;
+        line-height: 1.4
+    }
+    .request__figure {
+        display: block;
+        max-width: 716px;
+        margin: 30px auto 0
+    }
+    .request__figure__text {
+        font-size: 16px;
+        text-align: center
+    }
+    .request__figure__img {
+        width: 310px;
+        margin: 10px auto
+    }
+    .request__figure__img img {
+        width: 100%;
+        height: auto
+    }
+    .form__wrap {
+        margin-top: 10px
+    }
+    .mktoForm .mktoFormCol {
+        padding: 15px 0
+    }
+    .mktoForm .mktoFieldWrap {
+        width: 100%
+    }
+    .mktoForm .mktoFieldWrap label.mktoLabel {
+        font-size: 14px;
+        padding-top: 0;
+        padding-bottom: 10px;
+        width: auto !important
+    }
+    .mktoForm .mktoFormRow:nth-of-type(1) .mktoField,
+    .mktoForm .mktoFormRow:nth-of-type(2) .mktoField,
+    .mktoForm .mktoFormRow:nth-of-type(3) .mktoField {
+        width: 100% !important;
+        height: auto !important;
+        font-size: 14px !important
+    }
+    .mktoForm .mktoRequiredField .mktoAsterix {
+        font-size: 30px !important
+    }
+    .text_attention {
+        bottom: 110px
+    }
+    .mktoButtonRow .mktoButtonWrap {
+        margin: 0 auto !important
+    }
+    .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+        font-size: 13px !important;
+        max-width: 280px;
+        height: 44px;
+        line-height: 44px
+    }
+    .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+        background: #20AEE5 !important
+    }
+    .mktoForm .mktoFormRow select.mktoField+div:after {
+        bottom: -25px;
+        right: 10px
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .request__figure__img {
+        width: 100%;
+        padding: 0 10px
+    }
+}
+
+.freetrial {
+    padding: 68px 0 98px;
+    text-align: center;
+    background: #E1F0F8
+}
+
+@media screen and (max-width: 768px) {
+    .freetrial {
+        padding: 32px 0
+    }
+}
+
+.freetrial__title {
+    color: #20AEE5;
+    font-size: 35px;
+    line-height: 53px;
+    font-weight: bold
+}
+
+@media screen and (max-width: 768px) {
+    .freetrial__title {
+        padding: 0 24px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center
+    }
+}
+
+.freetrial__button {
+    display: inline-block;
+    width: 320px;
+    margin: 44px 10px 0
+}
+
+@media screen and (max-width: 768px) {
+    .freetrial__button {
+        width: 280px;
+        margin: 27px 10px 0
+    }
+}
+
+.freetrial__button a {
+    display: block;
+    position: relative;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 6px
+}
+
+.freetrial__button a:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 26px;
+    width: 8px;
+    height: 17px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAASCAMAAABRnG9EAAAASFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////neHiwAAAAF3RSTlMA9hUeEfLr5tzXysO0q5aLRjcxJQoHhGgLvmEAAABISURBVAjXRY1ZDkAhDAK1vn1fVO5/U5MSA1+ThjIhWWAQH8KF8SMdmJND3rAOTrZgL07/hJO1N+ImVUAXdfjVd7Qsl+xGj9IAIZ0DYrP9v0MAAAAASUVORK5CYII=") no-repeat center center;
+    background-size: 8px auto
+}
+
+.freetrial__register__button a {
+    background: #f2971b;
+    -webkit-box-shadow: 0 4px #d15a09;
+    box-shadow: 0 4px #d15a09
+}
+
+.freetrial__register__button a:hover {
+    background: #f98012
+}
+
+.freetrial__login__button a {
+    background: #20AEE5;
+    -webkit-box-shadow: 0 4px #086A9F;
+    box-shadow: 0 4px #086A9F
+}
+
+.freetrial__login__button a:hover {
+    background: #00699E
+}

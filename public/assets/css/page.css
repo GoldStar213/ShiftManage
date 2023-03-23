@@ -1,0 +1,83 @@
+.freetrial {
+    padding: 68px 0 98px;
+    text-align: center;
+    background: #E1F0F8
+}
+
+@media screen and (max-width: 768px) {
+    .freetrial {
+        padding: 32px 0
+    }
+}
+
+.freetrial__title {
+    color: #20AEE5;
+    font-size: 35px;
+    line-height: 53px;
+    font-weight: bold
+}
+
+@media screen and (max-width: 768px) {
+    .freetrial__title {
+        padding: 0 24px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center
+    }
+}
+
+.freetrial__button {
+    display: inline-block;
+    width: 320px;
+    margin: 44px 10px 0
+}
+
+@media screen and (max-width: 768px) {
+    .freetrial__button {
+        width: 280px;
+        margin: 27px 10px 0
+    }
+}
+
+.freetrial__button a {
+    display: block;
+    position: relative;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 6px
+}
+
+.freetrial__button a:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 26px;
+    width: 8px;
+    height: 17px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAASCAMAAABRnG9EAAAASFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////neHiwAAAAF3RSTlMA9hUeEfLr5tzXysO0q5aLRjcxJQoHhGgLvmEAAABISURBVAjXRY1ZDkAhDAK1vn1fVO5/U5MSA1+ThjIhWWAQH8KF8SMdmJND3rAOTrZgL07/hJO1N+ImVUAXdfjVd7Qsl+xGj9IAIZ0DYrP9v0MAAAAASUVORK5CYII=") no-repeat center center;
+    background-size: 8px auto
+}
+
+.freetrial__register__button a {
+    background: #5468ff;
+    -webkit-box-shadow: 0 4px #2f3c99;
+    box-shadow: 0 4px #2c3892
+}
+
+.freetrial__register__button a:hover {
+    background: #f98012
+}
+
+.freetrial__login__button a {
+    background: #40cd3c;
+    -webkit-box-shadow: 0 4px #2d8f29;
+    box-shadow: 0 4px #277b24
+}
+
+.freetrial__login__button a:hover {
+    background: #00699E
+}

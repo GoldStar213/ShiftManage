@@ -1,0 +1,490 @@
+.ability__inner {
+    margin: 0 auto;
+    padding: 0 0 80px;
+    border: none
+}
+
+@media screen and (max-width: 768px) {
+    .ability__inner {
+        margin: 40px auto 0;
+        padding: 0 0 64px
+    }
+}
+
+.page-airshift-function .ability__inner {
+    padding: 0 0 120px
+}
+
+.ability__title {
+    margin: 40px 0 0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px
+}
+
+@media screen and (max-width: 768px) {
+    .ability__title {
+        margin: 32px 0 0;
+        font-size: 24px;
+        line-height: 36px
+    }
+}
+
+.ability__title+.ability__sub__description {
+    margin: 30px 0 0
+}
+
+@media screen and (max-width: 768px) {
+    .ability__title+.ability__sub__description {
+        margin: 20px 14px 0
+    }
+    .ability__title+.ability__sub__description br {
+        display: none
+    }
+}
+
+.ability__description {
+    margin: 28px 0 0;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center
+}
+
+@media screen and (max-width: 768px) {
+    .ability__description {
+        margin: 20px 0 0;
+        font-size: 15px;
+        line-height: 17px
+    }
+}
+
+.ability__sub__title {
+    margin: 72px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center
+}
+
+@media screen and (max-width: 768px) {
+    .ability__sub__title {
+        margin: 48px 14px 0;
+        line-height: 27px;
+        text-align: left
+    }
+}
+
+.ability__sub__description {
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center
+}
+
+@media screen and (max-width: 768px) {
+    .ability__sub__description {
+        margin: 16px 14px 0;
+        text-align: left
+    }
+}
+
+.ability__list {
+    width: 1050px;
+    margin: 72px auto 0
+}
+
+@media screen and (max-width: 414px) {
+    .ability__list {
+        width: auto;
+        margin: 40px 10px 0
+    }
+}
+
+.ability__list>li {
+    overflow: hidden;
+    margin: 24px 0 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1)
+}
+
+.ability__list>li:focus,
+.ability__list>li:hover {
+    opacity: .6
+}
+
+.ability__list>li.ability__list__management {
+    background: url("../image/frontend/function/creation-pc.png") no-repeat top left;
+    background-size: 350px 322px
+}
+
+@media screen and (max-width: 414px) {
+    .ability__list>li.ability__list__management {
+        background-image: url("../image/frontend/function/creation-sp.png");
+        background-size: 100%
+    }
+}
+
+.ability__list>li.ability__list__timecard {
+    background: url("../image/frontend/function/timecard-pc.png") no-repeat top left;
+    background-size: 350px 255px
+}
+
+@media screen and (max-width: 414px) {
+    .ability__list>li.ability__list__timecard {
+        background-image: url("../image/frontend/function/timecard-sp.png");
+        background-size: 100%
+    }
+}
+
+.ability__list>li.ability__list__help {
+    background: url("../image/frontend/function/help-pc.png") no-repeat top left;
+    background-size: 350px 296px
+}
+
+@media screen and (max-width: 414px) {
+    .ability__list>li.ability__list__help {
+        background-image: url("../image/frontend/function/help-sp.png");
+        background-size: 100%
+    }
+}
+
+.ability__list>li>a {
+    display: block;
+    padding: 0 0 0 350px
+}
+
+@media screen and (max-width: 414px) {
+    .ability__list>li>a {
+        padding: 56vw 0 0
+    }
+}
+
+.ability__list__detail {
+    padding: 32px;
+    background: #fff;
+    border-left: solid 1px #ddd
+}
+
+@media screen and (max-width: 768px) {
+    .ability__list__detail {
+        padding: 24px 16px;
+        border-top: solid 1px #ddd;
+        border-left: none
+    }
+}
+
+.ability__list__title {
+    color: #20e551;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1
+}
+
+@media screen and (max-width: 768px) {
+    .ability__list__title {
+        font-size: 18px;
+        line-height: 27px
+    }
+}
+
+.ability__list__description {
+    margin: 24px 0 0;
+    font-size: 16px;
+    line-height: 26px
+}
+
+@media screen and (max-width: 768px) {
+    .ability__list__description {
+        margin: 16px 0 0;
+        font-size: 14px;
+        line-height: 22px
+    }
+}
+
+.ability__list__main {
+    margin: 24px 0 0;
+    font-size: 14px;
+    line-height: 22px
+}
+
+@media screen and (max-width: 768px) {
+    .ability__list__main {
+        margin: 16px 0 0;
+        font-size: 12px;
+        line-height: 19px
+    }
+}
+
+.ability__list__main ul {
+    line-height: 22px
+}
+
+.ability__list__main__title {
+    font-weight: bold
+}
+
+.ability__section {
+    margin: 72px 0 0
+}
+
+@media screen and (max-width: 768px) {
+    .ability__section {
+        margin: 48px 0 0
+    }
+}
+
+.ability__entries {
+    margin: 42px 0 0;
+}
+
+.ability__entries .ability__entry {
+    width: 320px
+}
+
+@media screen and (max-width: 768px) {
+    .ability__entries .ability__entry {
+        margin-left: auto
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .ability__entries .ability__entry {
+        margin-bottom: 0
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .ability__entries .ability__entry:nth-child(1),
+    .ability__entries .ability__entry:nth-child(4) {
+        margin-left: 0
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .ability__entries .ability__entry:nth-child(4),
+    .ability__entries .ability__entry:nth-child(5),
+    .ability__entries .ability__entry:nth-child(6) {
+        margin-top: 64px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-airshift-function-help .ability__inner {
+        padding-bottom: 0
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .page-airshift-function-help .ability__entries {
+        width: 720px;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-airshift-function-help .ability__entry:nth-child(1) .ability__entry__title br {
+        display: none
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .page-airshift-function-help .ability__entry:nth-child(2) .ability__entry__title {
+        height: 56px
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .page-airshift-function-help .ability__entry:nth-child(3) {
+        margin-left: 0;
+        margin-top: 64px
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .page-airshift-function-help .ability__entry:nth-child(4) {
+        margin-left: 35px
+    }
+}
+
+.page-airshift-function-help .movie {
+    width: auto;
+    margin: 72px -10px 0;
+    padding: 0
+}
+
+@media screen and (max-width: 768px) {
+    .page-airshift-function-help .movie {
+        margin-top: 56px
+    }
+}
+
+.page-airshift-function-help .movie .movie__inner {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 768px) {
+    .page-airshift-function-help .movie .movie__thumbnail__inner {
+        border-radius: 0
+    }
+}
+
+.ability__entry__title {
+    margin: 32px 0 24px
+}
+
+.ability__entry__appstorelink {
+    display: inline-block;
+    margin: 26px 0 0
+}
+
+.faq__inner {
+    max-width: 1035px
+}
+
+.faq__section .faq__inner {
+    max-width: 1035px
+}
+
+.other_function__section {
+    padding: 80px 0;
+    padding: 80px 0 0;
+    background: #fafafa
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section {
+        padding: 64px 0 0
+    }
+}
+
+.other_function__section .other_function__title {
+    color: #20AEE5;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .other_function__title {
+        font-size: 18px;
+        line-height: 27px
+    }
+}
+
+.other_function__section .other_function__inner {
+    max-width: 1035px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .other_function__inner {
+        margin: 0 24px
+    }
+}
+
+.other_function__section .ability__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0 24px;
+    margin: 0;
+    padding: 0
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .ability__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.other_function__section .ability__list li {
+    width: inherit;
+    background-size: contain;
+    background-position-x: 0px
+}
+
+.other_function__section .ability__list li.ability__list__management {
+    background-image: url(../image/frontend/function/creation-pc.png)
+}
+
+.other_function__section .ability__list li.ability__list__timecard {
+    background-image: url(../image/frontend/function/timecard-pc.png);
+    background-position-x: -108px
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .ability__list li.ability__list__timecard {
+        background-position-x: 0
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .other_function__section .ability__list li.ability__list__timecard {
+        background-position-x: -100px
+    }
+}
+
+.other_function__section .ability__list li.ability__list__help {
+    background-image: url(../image/frontend/function/help-pc.png)
+}
+
+.other_function__section .ability__list li a {
+    padding: 0 0 0 168px
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .ability__list li a {
+        padding: 0 0 0 26%
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .other_function__section .ability__list li a {
+        padding: 0 0 0 108px
+    }
+}
+
+.other_function__section .ability__list li .ability__list__main {
+    margin: 12px 0 0
+}
+
+.other_function__section .ability__list li .ability__list__title {
+    font-size: 16px;
+    line-height: 24px
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .ability__list li .ability__list__title {
+        font-size: 14px;
+        line-height: 21px
+    }
+}
+
+.other_function__section .ability__list li .ability__list__detail {
+    padding: 24px 20px
+}
+
+@media screen and (min-width: 769px) {
+    .other_function__section .ability__list li .ability__list__detail {
+        min-height: 206px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .other_function__section .ability__list li .ability__list__detail {
+        padding: 20px 16px;
+        border-top: none;
+        border-left: solid 1px #ddd
+    }
+}

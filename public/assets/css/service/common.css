@@ -1,0 +1,671 @@
+
+/*=============================================================
+      * Reset (http://meyerweb.com/eric/tools/css/reset/ v2.0 (20110126))
+      =============================================================*/
+#air-common-header html,
+#air-common-header body,
+#air-common-header div,
+#air-common-header span,
+#air-common-header applet,
+#air-common-header object,
+#air-common-header iframe,
+#air-common-header h1,
+#air-common-header h2,
+#air-common-header h3,
+#air-common-header h4,
+#air-common-header h5,
+#air-common-header h6,
+#air-common-header p,
+#air-common-header blockquote,
+#air-common-header pre,
+#air-common-header a,
+#air-common-header abbr,
+#air-common-header acronym,
+#air-common-header address,
+#air-common-header big,
+#air-common-header cite,
+#air-common-header code,
+#air-common-header del,
+#air-common-header dfn,
+#air-common-header em,
+#air-common-header img,
+#air-common-header ins,
+#air-common-header kbd,
+#air-common-header q,
+#air-common-header s,
+#air-common-header samp,
+#air-common-header small,
+#air-common-header strike,
+#air-common-header strong,
+#air-common-header sub,
+#air-common-header sup,
+#air-common-header tt,
+#air-common-header var,
+#air-common-header b,
+#air-common-header u,
+#air-common-header i,
+#air-common-header center,
+#air-common-header dl,
+#air-common-header dt,
+#air-common-header dd,
+#air-common-header ol,
+#air-common-header ul,
+#air-common-header li,
+#air-common-header fieldset,
+#air-common-header form,
+#air-common-header label,
+#air-common-header legend,
+#air-common-header table,
+#air-common-header caption,
+#air-common-header tbody,
+#air-common-header tfoot,
+#air-common-header thead,
+#air-common-header tr,
+#air-common-header th,
+#air-common-header td,
+#air-common-header article,
+#air-common-header aside,
+#air-common-header canvas,
+#air-common-header details,
+#air-common-header embed,
+#air-common-header figure,
+#air-common-header figcaption,
+#air-common-header footer,
+#air-common-header header,
+#air-common-header hgroup,
+#air-common-header menu,
+#air-common-header nav,
+#air-common-header output,
+#air-common-header ruby,
+#air-common-header section,
+#air-common-header summary,
+#air-common-header time,
+#air-common-header mark,
+#air-common-header audio,
+#air-common-header video {
+    border: 0;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+#air-common-header article,
+#air-common-header aside,
+#air-common-header details,
+#air-common-header figcaption,
+#air-common-header figure,
+#air-common-header footer,
+#air-common-header header,
+#air-common-header hgroup,
+#air-common-header menu,
+#air-common-header nav,
+#air-common-header section {
+    display: block;
+}
+
+/* stylelint-disable */
+#air-common-header body {
+    line-height: 1;
+}
+
+#air-common-header ol,
+#air-common-header ul {
+    list-style: none;
+}
+
+#air-common-header blockquote,
+#air-common-header q {
+    quotes: none;
+}
+
+#air-common-header blockquote:before,
+#air-common-header blockquote:after,
+#air-common-header q:before,
+#air-common-header q:after {
+    content: '';
+    content: none;
+}
+
+#air-common-header table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#air-common-header * {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#air-common-header .air-common-header-inner-wrap {
+    height: inherit;
+}
+
+#air-common-header .cmn-hdr-navigation {
+    margin: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+#air-common-header .cmn-hdr-navigation.ie9lt {
+    display: block;
+}
+
+#air-common-header .cmn-hdr-navigation.ie9lt .cmn-hdr-menu-btn {
+    display: block;
+    float: left;
+}
+
+#air-common-header .cmn-hdr-navigation.ie9lt .cmn-hdr-menu-btn.cmn-hdr-service {
+    float: right;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn {
+    position: relative;
+    font-size: 14px;
+    line-height: 35px;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn:hover {
+    background-color: #4a4a4a;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-current {
+    background-color: #4a4a4a;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 36px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #888;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-account {
+    padding-right: 28px;
+    padding-left: 4px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-account .cmn-hdr-account-name {
+    display: inline-block;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-account .cmn-hdr-icon.cmn-hdr-account-icon {
+    width: 16px;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-store {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: -2px;
+    padding-right: 28px;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-service {
+    margin-left: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-right: 28px;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-service:before {
+    right: auto;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn .cmn-hdr-icon {
+    display: inline-block;
+    vertical-align: middle;
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn .cmn-hdr-icon.cmn-hdr-icon-small>svg {
+    display: block;
+}
+
+#air-common-header .cmn-hdr-navigation .cmn-hdr-menu-btn .cmn-hdr-arrow-down {
+    width: 7px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+#air-common-header .cmn-hdr-balloon {
+    display: none;
+    position: absolute;
+    
+    z-index: 10000;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #555;
+}
+
+
+
+
+ #air-common-header .cmn-hdr-balloon.cmn-hdr-account-menu{
+    display: none;
+    top: 38px;
+    left: 0px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu{
+    display: none;
+    top: 38px;
+    left: 118px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu{
+    display: none;
+    top: 38px;
+    right: 0px;
+}
+
+#air-common-header .cmn-hdr-balloon>.cmn-hdr-balloon-horn {
+    display: block;
+    position: absolute;
+    top: -16px;
+    left: 12px;
+    width: 0;
+    height: 0;
+    border: solid 10px transparent;
+    border-bottom-color: #fff;
+    pointer-events: none;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-show {
+    display: block;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-account-menu .cmn-hdr-account-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px 20px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-account-menu .cmn-hdr-account-name {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: inline-block;
+    width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin: 0 12px;
+    font-size: 14px;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-account-menu .cmn-hdr-logout-menu {
+    float: right;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu .cmn-hdr-store-info {
+    display: block;
+    text-align: center;
+    padding: 24px 20px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu .cmn-hdr-store-info .cmn-hdr-icon-large {
+    width: 37px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu .cmn-hdr-store-info .cmn-hdr-store-name {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu .cmn-hdr-store-info .cmn-hdr-store-change>.cmn-hdr-account-menu-link.cmn-hdr-inner-btn {
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu .cmn-hdr-menu-separator {
+    background-color: #eee;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-store-menu .cmn-hdr-menu-separator .cmn-hdr-menu-separator-text {
+    display: block;
+    padding: 30px 0 7px 12px;
+    color: #999;
+    font-size: 13px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu {
+    right: 4px;
+    left: auto;
+    width: 340px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-balloon-horn {
+    left: auto;
+    right: 12px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list {
+    padding: 20px 0 20px 20px;
+    max-height: 410px;
+    overflow: auto;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list.cmn-hdr-zero {
+    min-height: 60px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list.cmn-hdr-zero .cmn-hdr-zero-text {
+    display: table-cell;
+    width: 300px;
+    height: 60px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list li {
+    border-top: 0;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list .cmn-hdr-service-menu-link {
+    width: 100px;
+    height: 100px;
+    border-top: 0;
+    text-align: center;
+    float: left;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1;
+    color: #555;
+    text-decoration: none;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list .cmn-hdr-service-menu-link:hover {
+    -webkit-box-shadow: 0 0 0 1px #20aee5;
+    box-shadow: 0 0 0 1px #20aee5;
+    border-radius: 4px;
+    margin: 0;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list img {
+    border-radius: 4px;
+    display: block;
+    margin: 14px auto 10px;
+    height: 48px;
+    width: 48px;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-service-menu-list span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 80px;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-airmarket-menu {
+    bottom: 0;
+    float: left;
+    width: 100%;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-airmarket-menu .cmn-hdr-airmarket-link {
+    padding: 16px 42px;
+    text-align: center;
+}
+
+#air-common-header .cmn-hdr-balloon.cmn-hdr-service-menu .cmn-hdr-airmarket-link {
+    color: #0892c7;
+    text-align: center;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-inner-btn {
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-inner-btn:hover {
+    border-color: #b8b8b8;
+    color: #919191;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-inner-btn:hover:after {
+    background-color: #adadad;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-inner-btn:hover svg {
+    fill: #b8b8b8;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-menu-item-list li {
+    background-color: #fff;
+    border-top: solid 1px #ccc;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-menu-item-list li:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-menu-item-list li:last-child a:hover {
+    border-radius: 0 0 8px 8px;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-menu-item-list li a {
+    display: block;
+    padding: 12px;
+    color: #555;
+    text-decoration: none;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-menu-item-list li a:hover {
+    background-color: #f0faff;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-account-menu-link {
+    display: block;
+    padding: 12px;
+    color: #555;
+    text-decoration: none;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-service-menu-link {
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+}
+
+#air-common-header .cmn-hdr-balloon .cmn-hdr-icon {
+    text-align: center;
+    fill: #ccc;
+}
+
+#air-common-header .cmn-hdr-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+#air-common-header .cmn-hdr-icon.cmn-hdr-arrow-down {
+    width: 7px;
+    height: 4px;
+}
+
+#air-common-header .cmn-hdr-icon.cmn-hdr-arrow-right {
+    width: 5px;
+    height: 8px;
+    margin-left: 4px;
+    vertical-align: baseline;
+    fill: #999;
+}
+
+#air-common-header .cmn-hdr-icon.cmn-hdr-icon-large {
+    min-width: 28px;
+    height: 37px;
+}
+
+/* SP */
+/* ボタンを右揃えにする */
+#air-common-header .air-common-header_SP .cmn-hdr-navigation {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+/* 罫線を左側につける */
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn:before {
+    right: auto;
+    left: 0;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-current {
+    background-color: #4a4a4a;
+}
+
+/* ボタンのテキストを消す */
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn>.cmn-hdr-btn-text {
+    display: none;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-account {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-account .cmn-hdr-account-name {
+    display: none;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-store {
+    padding-right: 8px;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn {
+    /* サービスボタンを消す */
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn .cmn-hdr-icon {
+    margin-right: 17px;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn .cmn-hdr-arrow-down {
+    margin-right: 12px;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn.cmn-hdr-service {
+    display: none;
+}
+
+/* メニュー内のリストボタンの高さを大きく */
+#air-common-header .air-common-header_SP .cmn-hdr-navigation .cmn-hdr-menu-btn .cmn-hdr-menu-item-list>li a {
+    padding: 16px;
+}
+
+/* 吹き出しの位置や形を調整 */
+#air-common-header .air-common-header_SP .cmn-hdr-balloon {
+    top: 36px;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-balloon .cmn-hdr-menu-item-list li:last-child a:hover {
+    border-radius: 0;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-balloon.cmn-hdr-account-menu {
+    width: 100%;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-balloon.cmn-hdr-account-menu>.cmn-hdr-balloon-horn {
+    right: 84px;
+    /* SP版のツノは親ボタンの右端から25pxの位置とする */
+    left: auto;
+}
+
+#air-common-header .air-common-header_SP .cmn-hdr-balloon.cmn-hdr-store-menu>.cmn-hdr-balloon-horn {
+    right: 27px;
+    left: auto;
+}

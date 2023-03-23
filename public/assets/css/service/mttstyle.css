@@ -1,0 +1,35 @@
+#mttContainer {
+    left: 0 !important;
+    top: 0 !important;
+    position: fixed !important;
+    z-index: 100000200 !important;
+    width: 1000px !important;
+    margin-left: -500px !important;
+    background-color: #00000000 !important;
+    pointer-events: none !important;
+}
+
+.bootstrapiso .tooltip {
+    width: auto !important;
+    height: auto !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    visibility: visible !important;
+    pointer-events: none !important;
+}
+
+.bootstrapiso .tooltip-inner {
+    font-size: 14px !important;
+    max-width: 200px !important;
+    text-align: center !important;
+    backdrop-filter: blur(2px) !important;
+    background-color: #000000b8 !important;
+    color: #ffffffff !important;
+    border-radius: .25rem !important;
+    pointer-events: none !important;
+}
+
+.bootstrapiso .arrow::before {
+    border-top-color: #000000b8 !important;
+}

@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-image: url(../../image/back.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 700px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: DodgerBlue;
+    font-size: 30px;
+    font-family: " Yellow Ginger", "Meiryo", "Shoguns-Clan", "MS Pgothic", knowledge-reg, helvetica, arial, sans-serif;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-bottom: 3px solid cornflowerblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: " Yellow Ginger", "Meiryo", "Shoguns-Clan", "MS Pgothic", knowledge-reg, helvetica, arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.button_box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    color: snow;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.modal_box {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 26px;
+    font-weight: 600;
+    visibility: hidden;
+}
